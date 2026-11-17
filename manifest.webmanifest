@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "Capital Bank of Australia",
+  "short_name": "Capital Bank",
+  "description": "Capital Bank of Australia – growing financially, securing the future.",
+  "start_url": "./home.html?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#06291a",
+  "theme_color": "#0b4a2c",
+  "lang": "en-AU",
+  "categories": ["finance", "business"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Sign in", "short_name": "Sign in", "url": "./enter.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Open an account", "short_name": "Open account", "url": "./open.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
